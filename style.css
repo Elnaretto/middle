@@ -1,0 +1,25 @@
+body {
+  font-family: 'Poppins', serif;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #e0f6fa;
+  color: #235;
+}
+h1::first-letter {
+  color: #660000; /* bloody dark red */
+  font-size: 1.2em;
+  font-weight: 720;
+}
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin-bottom: 30px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
